@@ -17,8 +17,8 @@ Apenas um test
 
 <br>
 
-<p align="center">
-  <img alt="Projeto test DevLinks" src="./img/github/test.jpg" width="100%">
+<p align="center"> 
+<img alt="imagem do DevLinks" src=.github/test.jpg>
 </p>
 
 ## 🚀 Tecnologias
