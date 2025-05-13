@@ -49,8 +49,7 @@ body * {
 
 /* Container */
 #container {
-  width: 100%;
-  max-width: 588px;
+  max-width: 360px;
   margin: 56px auto 0;
   padding: 0 24px;
 }
@@ -164,4 +163,19 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* Responsividade para telas maiores */
+@media (min-width: 768px) {
+  #container {
+    max-width: 600px;
+  }
+
+  body {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
